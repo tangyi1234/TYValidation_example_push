@@ -14,6 +14,8 @@ class TYCommaQuestionMarkViewController: UIViewController {
     fileprivate var list: NSMutableArray?
     fileprivate var lbl: UILabel?
     fileprivate var dic: NSMutableDictionary?
+    fileprivate var arr: Array<Any>?
+    fileprivate var boo: Bool?
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,6 +42,14 @@ class TYCommaQuestionMarkViewController: UIViewController {
         }
         
         if dic![""] as? String == "" {
+            
+        }
+        
+        if arr![0] as? String == ""{
+            
+        }
+        
+        if boo == true {
             
         }
     }

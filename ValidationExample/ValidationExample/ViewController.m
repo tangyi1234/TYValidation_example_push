@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ValidationExample-Swift.h"
+#import "TYTableViewViewController.h"
 @interface ViewController ()
 
 @end
@@ -27,10 +28,22 @@
     [but setTitle:@"验证判断" forState:UIControlStateNormal];
     [but addTarget:self action:@selector(selectorBut) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:but];
+    
+    UIButton *but1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    but1.frame = CGRectMake(10, 110, 150, 30);
+    but1.backgroundColor = [UIColor yellowColor];
+    [but1 setTitle:@"tableView" forState:UIControlStateNormal];
+    [but1 addTarget:self action:@selector(selectorBut1) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:but1];
 }
 
 - (void)selectorBut {
     TYCommaQuestionMarkViewController *vc = [[TYCommaQuestionMarkViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)selectorBut1 {
+    TYTableViewViewController *vc = [[TYTableViewViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 - (void)didReceiveMemoryWarning {

@@ -15,6 +15,7 @@
 		A2BA55B0210AFDDC00D39BE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA55AF210AFDDC00D39BE1 /* main.m */; };
 		A2BA55B8210B003300D39BE1 /* TYCommaQuestionMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA55B7210B003300D39BE1 /* TYCommaQuestionMarkViewController.swift */; };
 		A2BA55BB210B04F700D39BE1 /* TYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA55BA210B04F700D39BE1 /* TYModel.m */; };
+		A2BA55BE210B14E300D39BE1 /* TYTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA55BD210B14E300D39BE1 /* TYTableViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		A2BA55B7210B003300D39BE1 /* TYCommaQuestionMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCommaQuestionMarkViewController.swift; sourceTree = "<group>"; };
 		A2BA55B9210B04F700D39BE1 /* TYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYModel.h; sourceTree = "<group>"; };
 		A2BA55BA210B04F700D39BE1 /* TYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYModel.m; sourceTree = "<group>"; };
+		A2BA55BC210B14E300D39BE1 /* TYTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTableViewViewController.h; sourceTree = "<group>"; };
+		A2BA55BD210B14E300D39BE1 /* TYTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTableViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				A2BA559E210AFDDC00D39BE1 /* AppDelegate.m */,
 				A2BA55A0210AFDDC00D39BE1 /* ViewController.h */,
 				A2BA55A1210AFDDC00D39BE1 /* ViewController.m */,
+				A2BA55BC210B14E300D39BE1 /* TYTableViewViewController.h */,
+				A2BA55BD210B14E300D39BE1 /* TYTableViewViewController.m */,
 				A2BA55B7210B003300D39BE1 /* TYCommaQuestionMarkViewController.swift */,
 				A2BA55B9210B04F700D39BE1 /* TYModel.h */,
 				A2BA55BA210B04F700D39BE1 /* TYModel.m */,
@@ -158,6 +163,7 @@
 				A2BA55B0210AFDDC00D39BE1 /* main.m in Sources */,
 				A2BA55BB210B04F700D39BE1 /* TYModel.m in Sources */,
 				A2BA55A8210AFDDC00D39BE1 /* ValidationExample.xcdatamodeld in Sources */,
+				A2BA55BE210B14E300D39BE1 /* TYTableViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
